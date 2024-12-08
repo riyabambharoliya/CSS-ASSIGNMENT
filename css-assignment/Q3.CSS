@@ -1,0 +1,76 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+aside {
+    align-items: center;
+    background-color: rgb(132, 106, 72);
+    flex: 2;
+    list-style-type:none;
+    padding: 1rem;
+    line-height: 5rem;
+    align-items: flex-start;
+    font-size: 35px;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+section
+{
+    flex: 5;
+    flex-basis: 250px;
+}
+
+section .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: space-evenly;
+
+}
+section .col {
+    flex-basis: 380px;
+    box-sizing: content-box;
+    background-color: rgb(44, 42, 38) ;
+    box-shadow: 1px 1px 10px gray;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.box{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+button {
+    background-color: rgb(231, 187, 155);
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+} 
